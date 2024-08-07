@@ -31,6 +31,7 @@ from utils import get_bbox, count_tiles, global_to_local_coords, isnan, postproc
 #Therefore, a trained mmsegmentation model is required.
 #The following directory structure is required (an example).
 
+#/mmsegmentation
 #/data
 #   /segmentation
 #       /mining_polygons_combined.gpkg
