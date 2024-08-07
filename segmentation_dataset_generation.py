@@ -22,7 +22,9 @@ from utils import get_bbox, global_to_local_coords, check_if_inside_bbox, replac
 #It reads two polygon datasets, requests satellite imagery of the corresponding locations from Planet,
 #and creates a directory containing the satellite images and a directory containing the segmentation masks,
 #each split into 0.8/0.1/0.1 train/test/val splits.
+#The following directory structure is required (an example).
 
+#/mmsegmentation
 #/data
 #   /segmentation
 #       /mining_polygons_combined.gpkg
